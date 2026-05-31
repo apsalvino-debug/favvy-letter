@@ -1,0 +1,151 @@
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:
+    linear-gradient(
+        180deg,
+        #FAF7FC 0%,
+        #F8F2FA 50%,
+        #FFF6FA 100%
+    );
+
+    color:#4A3F55;
+    font-family:'Libre Baskerville', serif;
+}
+
+/* HERO IMAGES */
+
+.hero{
+    position:relative;
+    width:100%;
+    height:50vh;
+    overflow:hidden;
+}
+
+.hero img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* LETTER SECTION */
+
+.letter-wrapper{
+    padding:100px 20px;
+}
+
+.letter{
+    max-width:750px;
+    margin:auto;
+
+    background:rgba(255,255,255,0.78);
+
+    padding:70px;
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* PARAGRAPHS */
+
+.letter p{
+    font-size:1rem;
+    line-height:2;
+    margin-bottom:28px;
+
+    text-indent:2rem;
+}
+
+/* QUOTE BLOCK */
+
+.quote-block{
+    margin:80px 0;
+
+    background:#F6EDF7;
+
+    padding:50px;
+
+    border-radius:18px;
+
+    border:1px solid #E8D8EC;
+}
+
+.quote-block p{
+    margin:0;
+
+    text-indent:0;
+
+    text-align:center;
+
+    font-size:1.3rem;
+
+    line-height:2.2;
+
+    font-family:'Cormorant Garamond', serif;
+}
+
+/* SIGNATURE */
+
+.signature{
+    text-align:center;
+    margin-top:100px;
+}
+
+.signature p{
+    text-indent:0;
+
+    margin-bottom:10px;
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:2.4rem;
+
+    font-weight:500;
+}
+
+.heart{
+    margin-top:40px;
+
+    font-size:1.8rem;
+
+    color:#D8B4E2;
+}
+
+@media (max-width: 768px){
+
+    .hero-overlay h1{
+        font-size: 2.8rem;
+    }
+
+    .hero-overlay p{
+        font-size: 1rem;
+    }
+
+    .letter{
+        padding: 40px 25px;
+    }
+
+    .letter p{
+        font-size: 0.95rem;
+        line-height: 1.9;
+        text-indent: 1.5rem;
+    }
+
+    .quote-block p{
+        font-size: 1.1rem;
+    }
+
+    .signature p{
+        font-size: 2rem;
+    }
+
+}
